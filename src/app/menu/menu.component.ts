@@ -16,7 +16,7 @@ export class MenuComponent implements AfterViewInit {
   mouseLoc = false;
   noResult = false;
   storeArray = null;
-  hero = {};
+  hero:any = {};
   storeArr = null;
   blogArray = null;
   searchBox = null;
